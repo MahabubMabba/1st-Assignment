@@ -1,0 +1,34 @@
+/* banner */
+.banner{
+    text-align: center;
+}
+.banneer-titel{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+.banner-subtitle{
+    font: 16px;
+    font-weight: 700;
+    opacity: 70%;
+    margin-top: 24px;
+}
+
+/* header */
+header{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+}
+/* btn */
+.banner-btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 32px;
+    background-color: #0D1321;
+    height: 65px;
+    width: 244px;
+    margin-bottom:45px;
+}
