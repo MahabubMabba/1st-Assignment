@@ -1,0 +1,1 @@
+give me a relevant section(event schedule) for my dev conference website. use only html and css basic .There are 4 speaker (Andrej Karpathy, Demis Hassabis, Gary Marcus, Mustafa Suleyman).keep ta basic so i can understand it easily.

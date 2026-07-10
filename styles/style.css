@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+
 section {
     padding: 55px 55px;
 }
-.hr-common{
+
+.hr-common {
     color: #FFFFFF;
     opacity: 30%;
 }
+
 /* nav css */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:24px 115px;
+    padding: 24px 115px;
     background-color: #FFFFFF;
 }
-ul{
+
+ul {
     display: flex;
     gap: 10px;
     color: #575757;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
 }
-.btn{
+
+.btn {
     background-color: #1D4ED8;
     color: #FFFFFF;
     padding: 12px 40px;
@@ -39,8 +46,8 @@ ul li a{
 }
 
 /* header part css */
-header{
-    background-image:linear-gradient(to right,
+header {
+    background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.6) 30%,
             rgba(0, 0, 0, 0) 70%), url("../assets/banner.jpg");
     background-position: center;
@@ -52,20 +59,24 @@ header{
     text-align: center;
     padding-top: 110px;
 }
-header .header-text h1{
+
+header .header-text h1 {
     color: #FFFFFF;
     font-size: 80px;
-    font-weight: bold ;
-   
+    font-weight: bold;
+
 }
-header .header-text h1 span{
+
+header .header-text h1 span {
     font-style: italic;
 }
-header .header-text p{
+
+header .header-text p {
     color: #FFFFFF;
     margin-top: 12px;
 }
-header .header-btn{
+
+header .header-btn {
     margin-top: 400px;
     background-color: #1D4ED8;
     color: #FFFFFF;
@@ -100,57 +111,66 @@ header .header-btn{
     background-color: #FFFFFF;
     border-radius: 12px 12px 0px 0px;
 }
-.img-text h5{
+
+.img-text h5 {
     color: #2563EB;
     padding-top: 22px;
     margin-left: 24px;
 }
-.img-text h1{
+
+.img-text h1 {
     padding-top: 8px;
     margin-left: 24px;
-    color:#0D1B2A ;
+    color: #0D1B2A;
 }
-.img-text p{
+
+.img-text p {
     padding-top: 8px;
     margin-left: 24px;
-    color:#575757;
+    color: #575757;
     margin-bottom: 27px;
 }
-.Speakers-text{
+
+.Speakers-text {
     text-align: center;
-    margin-bottom: 55px     ;
+    margin-bottom: 55px;
 }
-.Speakers-text h1{
+
+.Speakers-text h1 {
     font-weight: bold;
     font-size: 56px;
 }
 
 /* Secure Your Spot css */
-.card-header{
+.card-header {
     text-align: center;
 }
-.card-header h1{
+
+.card-header h1 {
     font-weight: bold;
     font-size: 48px;
     color: #0D1B2A;
     padding-bottom: 15px;
 }
-.card-header p{
+
+.card-header p {
     color: #575757;
     margin-bottom: 45px;
 }
-.card{
+
+.card {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.card-box{
+.card-box {
     background-color: #FFFFFF;
     border-radius: 12px;
     border: #E5E7EB 1px solid;
     padding: 30px;
 }
+
 .card-body ul {
     display: flex;
     flex-direction: column;
@@ -162,20 +182,24 @@ li::marker {
     color: #2563eb;
     font-size: 14px;
 }
-.card-heading p{
+
+.card-heading p {
     color: #888888;
     font-size: 13px;
     padding-bottom: 8px;
 }
-.card-heading h2{
+
+.card-heading h2 {
     color: #0D1B2A;
     padding-bottom: 5px;
 }
-.card-btn{
+
+.card-btn {
     margin-top: 35px;
-    text-align: center; 
+    text-align: center;
 }
-.card-btn button{
+
+.card-btn button {
     padding: 11px 105px;
     border-radius: 8px;
     font-weight: 600;
@@ -184,36 +208,43 @@ li::marker {
     border: #2563EB solid 1px;
     background-color: #FFFFFF;
 }
-.card-box-2{
+
+.card-box-2 {
     background-color: #0D1B2A;
     border-radius: 12px;
     border: #E5E7EB 1px solid;
     padding: 30px;
 }
-.card-heading-2 h2{
- color: #FFFFFF;
- padding-bottom: 5px;
+
+.card-heading-2 h2 {
+    color: #FFFFFF;
+    padding-bottom: 5px;
 }
-.card-box-2 .pro{
+
+.card-box-2 .pro {
     color: #93C5FD;
     font-size: 13px;
     padding-bottom: 8px;
 }
-.card-box-2 p{
+
+.card-box-2 p {
     color: #888888;
     font-size: 13px;
     padding-bottom: 8px;
 }
-.card-box-2 ul{
+
+.card-box-2 ul {
     color: #FFFFFF;
     font-size: 14px;
     opacity: 80%;
 }
-.pro-card-btn{
+
+.pro-card-btn {
     margin-top: 35px;
-    text-align: center; 
+    text-align: center;
 }
-.pro-card-btn button{
+
+.pro-card-btn button {
     padding: 11px 105px;
     border-radius: 8px;
     font-weight: 600;
@@ -223,25 +254,29 @@ li::marker {
     background-color: #2563EB;
 }
 
-.card-box-3{
+.card-box-3 {
     background-color: #F8F9FB;
     border-radius: 12px;
     border: #E5E7EB 1px solid;
     padding: 30px;
 }
-.card-box-3 p{
+
+.card-box-3 p {
     color: #888888;
     padding-bottom: 8px;
 }
-.card-box-3 h2{
-     color: #0D1B2A;
+
+.card-box-3 h2 {
+    color: #0D1B2A;
     padding-bottom: 5px;
 }
-.team-btn{
+
+.team-btn {
     margin-top: 35px;
-    text-align: center; 
+    text-align: center;
 }
-.team-btn button{
+
+.team-btn button {
     padding: 11px 105px;
     border-radius: 8px;
     font-weight: 600;
@@ -252,29 +287,33 @@ li::marker {
 }
 
 /* footer part */
-footer{
+footer {
     background-color: #0D1B2A;
-    padding:24px 115px;
+    padding: 24px 115px;
     margin-top: 70px;
 }
-.footer-1st{
+
+.footer-1st {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
     align-items: center;
 }
-.footer-icon a{
+
+.footer-icon a {
     list-style: none;
     text-decoration: none;
     color: #0b7f68;
 }
-.footer-p p{
+
+.footer-p p {
     text-align: center;
     padding-top: 12px;
     color: #93C5FD;
