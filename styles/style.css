@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav css */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:24px 115px;
+    background-color: #FFFFFF;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    color: #575757;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+}
